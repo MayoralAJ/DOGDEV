@@ -9,7 +9,7 @@
     margin-bottom: 2rem;
 }
 .products h2 span{
-    color: var(--secondary);
+    color:var(--secondary);
 }
 .products .grid{
     display: grid;
@@ -18,9 +18,9 @@
     margin: 5rem 0;
 }
 .products .product{
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
     border-radius: 10px;
-    overflow:hidden;
+    overflow: hidden;
     display: flex;
     text-decoration: none;
     background-color: var(--background);
@@ -34,7 +34,7 @@
 }
 .products .product .info{
     flex: 1;
-    padding: 2rem   ;
+    padding: 2rem;
 }
 .products .product .title{
     font-family: "Grandstander", sans-serif;
@@ -63,8 +63,8 @@
         display: block;
     }
 }
-    @media(width>900px){
-        .products .grid{
-            grid-template-columns: repeat(4, 1fr);
-        }
+@media(width>900px){
+    .products .grid{
+        grid-template-columns: repeat(4, 1fr);
     }
+}

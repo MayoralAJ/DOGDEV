@@ -9,13 +9,13 @@
 }
 .topics .topic .left,
 .topics .topic .right{
-    flex: 1;
+    flex:1;
 }
 .topics .topic .left img{
     max-width: 100%;
 }
 .topics li{
-    font-family: "Grandstander", sans serif;
+    font-family: "Grandstander", sans-serif;
     font-weight: bold;
     letter-spacing: -0.1rem;
     font-size: 5rem;
@@ -36,7 +36,7 @@
         flex-direction: row;
     }
     .topics .topic.reverse{
-     flex-direction:row-reverse;
+        flex-direction: row-reverse;
     }
     .topic li{
         font-size: 6rem;
