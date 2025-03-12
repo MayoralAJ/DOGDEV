@@ -1,0 +1,19 @@
+footer{
+    margin-top: 6rem;
+}
+footer .container{
+    padding: 0 3rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+}
+footer nav p{
+    font-weight: bold;
+}
+footer nav li{
+    margin: 1rem 0;
+}
+footer nav a{
+    color: var(--secondary);
+    text-decoration: none;
+}
